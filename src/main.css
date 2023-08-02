@@ -1,4 +1,4 @@
-.card-link {
+.url, .external_link_security_jump, .card-link {
   position: relative;
   width: 100%;
   min-width: 200px;

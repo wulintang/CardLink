@@ -5,6 +5,7 @@
     "start": "node index.js",
     "start:hot": "nodemon index.js"
   },
+  
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Lete114/CardLink.git"

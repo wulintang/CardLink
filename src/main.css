@@ -20,16 +20,16 @@
   background-color: hsla(0, 0%, 96.5%, 0.88);
   box-sizing: border-box;
 }
-.card-link [cardlink-left] .card-link-text {
+.card-link [cardlink-left] .card-link-text ,.url [cardlink-left] .card-link-text {
   order: 1;
 }
-.card-link [cardlink-left] .card-link-icon {
+.card-link [cardlink-left] .card-link-icon ,.url [cardlink-left] .card-link-icon{
   margin: 0 8px 0 0;
 }
-.card-link .card-link-text {
+.card-link .card-link-text ,.url .card-link-text {
   flex: 1;
 }
-.card-link .card-link-title {
+.card-link .card-link-title ,.url .card-link-title {
   max-height: 40px;
   font-size: 16px;
   font-weight: 500;
@@ -44,7 +44,7 @@
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 2;
 }
-.card-link .card-link-url {
+.card-link .card-link-url ,.url .card-link-url{
   display: -webkit-box;
   font-size: 13px;
   color: #999;
@@ -56,11 +56,11 @@
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 1;
 }
-.card-link .card-link-url svg {
+.card-link .card-link-url svg ,.url .card-link-url svg{
   float: left;
   margin: 2px 5px 0 0;
 }
-.card-link .card-link-icon {
+.card-link .card-link-icon ,.url .card-link-icon{
   width: 60px;
   height: 60px;
   margin: 0 0 0 8px;

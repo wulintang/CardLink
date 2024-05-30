@@ -9,7 +9,7 @@
   overflow: hidden !important;  
 }  
   
-.card-link .card-link-content, url, dzq-a {  
+.card-link .card-link-content, .url, .dzq-a {  
   text-decoration: none !important;  
   position: relative !important;  
   width: 100% !important;  
